@@ -22,15 +22,15 @@ header h1 {
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 5px;
-    color: #fff; /* White text */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black stroke */
+    color: #000; /* Plain black text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight drop shadow */
 }
 
 header .tagline {
     font-size: 1.5rem;
     margin-top: 10px;
-    color: #fff; /* White text */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black stroke */
+    color: #000; /* Plain black text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight drop shadow */
 }
 
 section {
@@ -46,8 +46,8 @@ section {
 h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #fff; /* White text */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black stroke */
+    color: #000; /* Plain black text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight drop shadow */
 }
 
 p {
@@ -63,8 +63,8 @@ p {
 .testimonial h3 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #fff; /* White text */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black stroke */
+    color: #000; /* Plain black text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight drop shadow */
 }
 
 .testimonial .details {
@@ -77,8 +77,8 @@ p {
     font-size: 1.8rem;
     font-weight: bold;
     margin-top: 15px;
-    color: #fff; /* White text */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black stroke */
+    color: #000; /* Plain black text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight drop shadow */
 }
 
 #contact p {
@@ -91,5 +91,9 @@ p {
     color: #000; /* Black text */
     text-decoration: none;
     font-weight: bold;
-    text-sha
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight drop shadow */
+}
 
+#contact a:hover {
+    text-decoration: underline;
+}
