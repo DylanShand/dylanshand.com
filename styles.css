@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('background.jpg'); /* Replace with your desired background image */
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+header .tagline {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+section {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    margin-bottom: 40px;
+}
+
+.testimonial h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.testimonial .details {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.testimonial .highlight {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
